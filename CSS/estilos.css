@@ -117,7 +117,7 @@ form h1{
     
 }
 
-form input{
+input[type="email"],input[type="text"],input[type="number"]{
     font-size: 18px;
     padding: 5px;
     border: 2px solid orange;
