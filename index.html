@@ -9,16 +9,27 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+    <script src="./js/Librerías/jquery-3.3.1.js"></script>
+    <script src="./js/main.js"></script>
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="./CSS/estilos.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Houses & Flats | Inicio</title>
 </head>
-<body>
+<body id="top">
     <!-- <div class="contenedor"> -->
         <header class="principal">
             <p class="burger">&#9776;</p>
+            <div class="menu">
+                <p class="cerrar">&#x2715</p>
+                <ul>
+                    <a href="/" class="activo">Inicio</a>
+                    <a href="comprar.html">Ventas</a>
+                    <a href="alquiler.html">Alquileres</a>
+                    <a href="contacto.html">Contacto</a>
+                </ul>
+            </div>
                 <a href="/" class="logo"><img src="./img/recurso (1).svg" alt="Logo"></a>
             <nav>
                 <ul>
@@ -37,7 +48,8 @@
             </a>
         </div>
         <div class="fila">
-            <div class="col2" id="primera">
+            <div class="col2">
+                    <span  id="primera" style="margin-top: -120px; padding-bottom: 120px; display: block;">&nbsp;</span>
                 <h2>Empresa</h2>
                 <p>Houses & flats le ofrece las mejores oportunidades para sus inversiones en los mercados inmobiliarios más atractivos por rentabilidad, calidad y precio. A través de un minucioso análisis de mercado, diversificación de las carteras de inversión y proyectos de desarrollo innovadores, Houses & flats pone a disposición de sus clientes una amplia variedad de servicios.
 
@@ -99,7 +111,7 @@
 
         <footer>
             <div class="top">
-                <a href="#">
+                <a href="#top">
                     <i class="fas fa-chevron-circle-up"></i>  
                 </a>
             </div>
