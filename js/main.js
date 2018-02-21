@@ -33,5 +33,8 @@ $(document).ready(function(){
         $(".overlay, .modal").removeClass("visible");
     });
         
+    $(window).load(function(){
+        $(".loader").fadeOut("slow");
+    });
 
 });
