@@ -461,6 +461,11 @@ header nav ul li{
     align-items: center;
 }
 
+.centradovertical {
+    display: flex;
+    align-items: center;
+}
+
 .fila .col2 h2{
     display: flex;
     justify-content: center;
@@ -486,6 +491,7 @@ header nav ul li{
     color: white;
     text-decoration: none;
     border-radius: 10px;
+    cursor:pointer;
 }
 
 .colboton{
@@ -792,6 +798,12 @@ label{
     }
     .col1{
         flex-basis: initial;
+    }
+
+    .centradovertical {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .fila col1 a p {
