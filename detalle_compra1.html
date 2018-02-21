@@ -24,7 +24,7 @@
     <meta name="theme-color" content="#ffffff">
     <title>Houses & Flats | Detalle Compra</title>
 </head>
-<body>
+<body id="top">
 <header>
      <!--Botón menu hamburguesa-->
      <div class="burger2">
@@ -74,9 +74,18 @@
                 <li>Piscina</li>
             </ul>
         </div>
-        <div class="col1 centrado">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1603.1495060706864!2d-6.285748915921757!3d36.52277997237975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0dd3d3d1d5914b%3A0xc1bbd8b4b1f0fcfc!2sCalle+Brunete%2C+11007+C%C3%A1diz!5e0!3m2!1ses!2ses!4v1518439625947" width="700" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+        <div class="col50 centrado">
+            <div><button class="botonMapa" id="open">Ver Mapa</button></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d769.9969735100213!2d-6.389630370764356!3d39.46960219871794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd15dfe71d78d2ad%3A0x63b0bea81ee3ddac!2zQXYuIFBhcsOtcywgMjYsIDEwMDA1IEPDoWNlcmVz!5e0!3m2!1ses!2ses!4v1517904903360" 
+            width="100%" height="300" frameborder="0" 
+            style="border:0" allowfullscreen></iframe>
+            <div class="overlay"></div>
+            <div class="modal">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d769.9969735100213!2d-6.389630370764356!3d39.46960219871794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd15dfe71d78d2ad%3A0x63b0bea81ee3ddac!2zQXYuIFBhcsOtcywgMjYsIDEwMDA1IEPDoWNlcmVz!5e0!3m2!1ses!2ses!4v1517904903360" 
+                width="100%" height="450" frameborder="0" 
+                style="border:0" allowfullscreen></iframe>
+                <button id="close" class="botonMapa">Cerrar</button>
+            </div>        </div>
     </div>
     <div class="fila">
         <div class="col1 centrado">
@@ -145,7 +154,7 @@
 
 <footer>
         <div class="top">
-            <a href="#">
+            <a href="#top">
                 <i class="fas fa-chevron-circle-up"></i>  
             </a>
         </div>
